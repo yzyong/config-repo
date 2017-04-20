@@ -1,6 +1,6 @@
 info:
-    description:Spring Cloud Samples--yzy
-    url:https://github.com/spring-cloud-samples
+    description: Spring Cloud Samples--yzy
+    url: https://github.com/spring-cloud-samples
 eureka:
     client:
          serviceUrl:
