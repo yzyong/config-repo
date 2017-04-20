@@ -1,0 +1,7 @@
+info:
+    description:Spring Cloud Samples--yzy
+    url:https://github.com/spring-cloud-samples
+eureka:
+    client:
+         serviceUrl:
+               defaultZone:http://localhost:8761/eureka/
