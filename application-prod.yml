@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yzyong/config-repo.git  #git仓库地址，就是刚才创建的git仓库
+          skipSslValidation: true #跳过校验
+          basedir: E:///yqSpace///yq_parent///yq-configServer///src///main///source #从git仓库拉取到的文件在本地存储的位置，可自行修改或删掉，默认存储在C盘
+        # bootstrap: true
+server:
+  port: 8889
